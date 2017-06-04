@@ -1,0 +1,261 @@
+.aw-aboutus-fs-section {
+    padding: 22em 0 13em 0;
+    background: url('/ADWAYS/static/img/aboutus/bg_aboutus_fs.png') no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.aw-aboutus-fs-section .aw-aboutus-fs-txt {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-title {
+    font-size: 2.5em;
+    font-family: 'Oswald' !important;
+}
+.aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-content {
+    padding-left: 0;
+    margin-top: 2em;
+}
+.aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-content .content-item {
+    display: inline-block;
+    line-height: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-content .content-item .content-item-num,
+.aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-content .content-item .content-item-num-plus {
+    font-size: 30px;
+    font-family: 'Oswald' !important;
+}
+.aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-content .content-item .content-item-num-plus i {
+    font-size: 26px;
+    font-weight: bold;
+    font-style: inherit;
+    margin-left: 3px;
+    vertical-align: top;
+}
+.aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-content .content-item .content-item-desc {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+
+/**** VIDEO ****/
+.aw-aboutus-video-section {
+    position: relative;
+    /*background: #4C4D4C;*/
+    background: url('/ADWAYS/static/img/aboutus/bg_about_us_vimeo.png') no-repeat;
+    background-position-x: center;
+    padding: 5em 0;
+}
+.aw-aboutus-video-section .container{
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+.aw-aboutus-video-section .aw-aboutus-video-title span {
+    background: #CE3F47;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 1.7em;
+    font-family: 'Oswald' !important;
+}
+.aw-aboutus-video-section .aw-aboutus-video-content {
+    font-size: 17px;
+}
+.aw-aboutus-video-section .aw-aboutus-video-content br{
+    line-height: 2em;
+}
+.aw-aboutus-video-section .aw-aboutus-video-vimeo {
+    margin-top: 5em;
+}
+
+
+
+/**** CEO ****/
+.aw-aboutus-ceo-section {
+    padding: 10em 0;
+    background: #CECFCB;
+    background: url('/ADWAYS/static/img/aboutus/ceo_bg.jpg') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.aw-aboutus-ceo-section .aw-aboutus-ceo-title span {
+    background: #CE3F47;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 1.7em;
+    color: #fff;
+    font-family: 'Oswald' !important;
+}
+.aw-aboutus-ceo-section .aw-aboutus-ceo-title-desc {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.aw-aboutus-ceo-section .aw-aboutus-ceo-name {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.aw-aboutus-ceo-section .aw-aboutus-ceo-name span {
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 1em;
+    vertical-align: bottom;
+}
+.aw-aboutus-ceo-section .aw-aboutus-ceo-content {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+
+
+/**** CONTENT ****/
+.aw-aboutus-content-section .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.aw-aboutus-content-section .title span{
+    background: #CE3F47;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 1.7em;
+    color: #fff;
+    font-family: 'Oswald' !important;
+}
+.aw-aboutus-content-section .title-desc{
+    font-size: 2em;
+    margin-top: 15px;
+    letter-spacing: -1px;
+    font-family: 'Oswald' !important;
+}
+.aw-aboutus-content-section .content {
+    margin-top: 10px;
+    font-size: 17px;
+}
+.aw-aboutus-content-section .aw-aboutus-content-vision-bg {
+    background: url('/ADWAYS/static/img/aboutus/aw_img_01.png') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.aw-aboutus-content-section .aw-aboutus-content-vision-content {
+    padding: 4em;
+    height: 400px;
+}
+.aw-aboutus-content-section .aw-aboutus-content-philosophy-bg {
+    background: url('/ADWAYS/static/img/aboutus/aw_img_02.png') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.aw-aboutus-content-section .aw-aboutus-content-philosophy-content {
+    padding: 4em;
+    background: #74665D;
+    color: #fff;
+    height: 400px;
+}
+.aw-aboutus-content-section .aw-aboutus-content-slogan-bg {
+    background: url('/ADWAYS/static/img/aboutus/aw_img_03.png') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.aw-aboutus-content-section .aw-aboutus-content-slogan-content {
+    padding: 4em;
+    height: 400px;
+    background: #CBCBC7;
+}
+
+
+/**** ADVENTURE ****/
+.aw-aboutus-adventure-section {
+    padding: 4em 0;
+    background: #D23F48;
+}
+.aw-aboutus-adventure-section img.img-txt{
+    margin-left: -43px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .aw-aboutus-content-section .aw-aboutus-content-vision-bg,
+    .aw-aboutus-content-section .aw-aboutus-content-vision-content,
+    .aw-aboutus-content-section .aw-aboutus-content-philosophy-bg,
+    .aw-aboutus-content-section .aw-aboutus-content-philosophy-content,
+    .aw-aboutus-content-section .aw-aboutus-content-slogan-bg,
+    .aw-aboutus-content-section .aw-aboutus-content-slogan-content {
+        width: 100%;
+    }
+
+    .aw-aboutus-fs-section {
+        padding: 11em 0 9em 0;
+    }
+    .aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-content .content-item .content-item-num,
+    .aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-content .content-item .content-item-num-plus,
+    .aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-content .content-item .content-item-num-plus i{
+        font-size: 18px;
+    }
+    .aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-content .content-item {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .aw-aboutus-video-section,
+    .aw-aboutus-ceo-section {
+        padding: 3em 0;
+    }
+    .aw-aboutus-video-section .aw-aboutus-video-content,
+    .aw-aboutus-ceo-section .aw-aboutus-ceo-content,
+    .aw-aboutus-content-section .content{
+        font-size: 14px;
+    }
+    .aw-aboutus-fs-section .aw-aboutus-fs-txt .aw-aboutus-fs-title {
+        font-size: 1.5em;
+    }
+    .aw-aboutus-video-section .aw-aboutus-video-title {
+        margin-bottom: 15px;
+    }
+    .aw-aboutus-video-section .aw-aboutus-video-title span,
+    .aw-aboutus-ceo-section .aw-aboutus-ceo-title span,
+    .aw-aboutus-content-section .title span {
+        padding: 4px 10px;
+        font-size: 1.3em;
+    }
+    .aw-aboutus-video-section .aw-aboutus-video-vimeo {
+        margin-top: 2em;
+    }
+    .aw-aboutus-ceo-section .aw-aboutus-ceo-title-desc {
+        margin-top: 15px;
+        font-size: 1.2em;
+    }
+    .aw-aboutus-ceo-section .aw-aboutus-ceo-name {
+        margin-top: 5px;
+    }
+    .aw-aboutus-content-section .aw-aboutus-content-vision-content,
+    .aw-aboutus-content-section .aw-aboutus-content-philosophy-content,
+    .aw-aboutus-content-section .aw-aboutus-content-slogan-content{
+        padding: 3em 0;
+    }
+    .aw-aboutus-content-section .title-desc {
+        font-size: 1.7em;
+    }
+    .aw-aboutus-content-section .aw-aboutus-content-slogan-bg,
+    .aw-aboutus-content-section .aw-aboutus-content-philosophy-bg,
+    .aw-aboutus-content-section .aw-aboutus-content-vision-bg {
+        background-position-x: 50%;
+    }
+
+    .aw-aboutus-adventure-section img.img-logo {
+        width: 23%;
+    }
+    .aw-aboutus-adventure-section img.img-txt {
+        margin-left: -30px;
+        width: 60%;
+    }
+}
+/* web */
+@media only screen and (min-width: 769px) {
+}

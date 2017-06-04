@@ -1,0 +1,296 @@
+* {
+    -webkit-animation-delay: 500ms;
+    -moz-animation-delay: 500ms;
+    -o-animation-delay: 500ms;
+    animation-delay: 500ms;
+}
+.container {
+    position: relative;
+}
+.aw-service-fs-section {
+    padding: 9em 0 25em 0;
+    background: url('/ADWAYS/static/img/service/service_bg.png') no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.aw-service-fs-section .container {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+.aw-service-fs-section .service-title {
+    font-family: 'Oswald', serif;
+    font-size: 2.5em;
+    line-height: 1.2;
+    -webkit-animation-delay: 1000ms;
+    -moz-animation-delay: 1000ms;
+    -o-animation-delay: 1000ms;
+    animation-delay: 1000ms;
+}
+.aw-service-fs-section .service-content {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.7;
+    -webkit-animation-delay: 1000ms;
+    -moz-animation-delay: 1000ms;
+    -o-animation-delay: 1000ms;
+    animation-delay: 1000ms;
+}
+
+/**** MENU ****/
+.menu {
+    padding-left: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 0;
+}
+.menu li {
+    font-weight: bold;
+}
+.menu li:hover {
+    cursor: pointer;
+}
+.menu li.menu-analytic {
+    background: #E54046;
+}
+.menu li.menu-platform {
+    background: #343533;
+}
+.menu li.menu-agency {
+    background: #1E201F;
+}
+
+
+/**** COMMON ****/
+.service-pannel {
+    padding: 5em 0;
+}
+.service-pannel .service-pannel-img-container,
+.service-pannel .service-pannel-txt-container {
+    margin-top: 4em;
+}
+.service-pannel .service-pannel-img-container {
+    text-align: center;
+}
+.service-pannel .service-pannel-txt-title {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.service-pannel .service-pannel-title img {
+    height: 45px;
+}
+.service-pannel .service-pannel-title span {
+    font-family: 'Oswald', serif;
+    height: 45px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10px;
+    font-size: 2.5em;
+    color: #CACAC6;
+}
+.service-pannel .service-pannel-title-desc {
+    color: #E4A160;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-top: 4px;
+    -webkit-animation-delay: 600ms;
+    -moz-animation-delay: 600ms;
+    -o-animation-delay: 600ms;
+    animation-delay: 600ms;
+}
+.service-pannel .service-pannel-content {
+    margin-top: 1.6em;
+    color: #838482;
+    font-size: 16px;
+    -webkit-animation-delay: 700ms;
+    -moz-animation-delay: 700ms;
+    -o-animation-delay: 700ms;
+    animation-delay: 700ms;
+}
+.service-pannel .service-pannel-btn a {
+    background: #E89644;
+    padding: 6px 18px;
+    margin-top: 1.6em;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+    -webkit-animation-delay: 800ms;
+    -moz-animation-delay: 800ms;
+    -o-animation-delay: 800ms;
+    animation-delay: 800ms;
+}
+
+
+/**** AD PLATFORM ****/
+.aw-service-platform {
+    background: #F8F7F6;
+}
+
+/**** MEGAMOUTH ****/
+.aw-service-megamouth .service-pannel-title-desc {
+    color: #60A6DA;
+}
+.aw-service-megamouth .service-pannel-btn a {
+    background: #60A6DA;
+}
+
+/**** APP AGENCY ****/
+.aw-service-agency hr {
+    width: 100%;
+}
+.aw-service-agency .step2,
+.aw-service-agency .step5,
+.service-pannel-img-sub-container {
+    margin-bottom: 3em;  }
+.service-pannel-img-sub-container .sub-item:nth-child(1) {
+    -webkit-animation-delay: 600ms;
+    -moz-animation-delay: 600ms;
+    -o-animation-delay: 600ms;
+    animation-delay: 600ms;
+}
+.service-pannel-img-sub-container .sub-item:nth-child(2) {
+    -webkit-animation-delay: 700ms;
+    -moz-animation-delay: 700ms;
+    -o-animation-delay: 700ms;
+    animation-delay: 700ms;
+}
+.service-pannel-img-sub-container .sub-item:nth-child(3) {
+    -webkit-animation-delay: 800ms;
+    -moz-animation-delay: 800ms;
+    -o-animation-delay: 800ms;
+    animation-delay: 800ms;
+}
+.service-pannel-img-sub-container .sub-item:nth-child(4) {
+    -webkit-animation-delay: 900ms;
+    -moz-animation-delay: 900ms;
+    -o-animation-delay: 900ms;
+    animation-delay: 900ms;
+}
+.aw-service-agency .step1,
+.aw-service-agency .step3,
+.aw-service-agency .step4 {
+    margin-bottom: 5em;  }
+.aw-service-agency .step2,
+.aw-service-agency .step3,
+.aw-service-agency .step4,
+.aw-service-agency .step5,
+.aw-service-agency .step6{
+    margin-top: 5em;  }
+.aw-service-agency .service-pannel-img-sub-desc {
+    font-size: 1.1em;
+    margin-top: 1.5em;
+    color: #585858;  }
+.aw-service-agency .img-sub-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #585858;  }
+.aw-service-agency .img-sub-title span {
+    font-size: 1em;
+    font-weight: 700;
+    color: #585858;  }
+.aw-service-agency .img-sub-desc {
+    font-size: 1.1em;
+    color: #585858;  }
+
+
+/**** MOBILE ****/
+@media only screen and (max-width: 480px) {
+    .aw-service-fs-section {
+        padding: 9em 0;
+        background: url('/ADWAYS/static/img/service/service_bg.png') no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position-x: 67%;
+    }
+    .aw-service-fs-section .service-content {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .aw-service-fs-section .service-title {
+        font-size: 1.5em;
+    }
+    .menu li {
+        width: 33%;
+        display: inline-block;
+        margin-left: -4px;
+        font-size: 1em;
+        font-family: 'Oswald', serif;
+        font-weight: 300;
+        color: #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .service-pannel {
+        padding: 3em 0;
+    }
+    .service-pannel .service-pannel-title img {
+        height: 32px;
+    }
+    .service-pannel .service-pannel-title span {
+        height: 32px;
+        font-size: 2em;
+    }
+    .service-pannel .service-pannel-img-container .img-character {
+        width: 46%;
+    }
+    .service-pannel .service-pannel-txt-title {
+        font-size: 1.5em;
+    }
+    .service-pannel .service-pannel-title-desc {
+        font-size: 1.3em;
+    }
+    .service-pannel .service-pannel-content {
+        margin-top: 6px;
+        font-size: 15px;
+    }
+    .service-pannel .service-pannel-btn a {
+        margin-top: 15px;
+    }
+    .aw-service-agency hr {
+        width: 80%;
+    }
+    .service-pannel-img-sub-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .service-pannel-img-sub-container .sub-item {
+        margin-bottom: 3em;
+    }
+    .aw-service-agency .img-sub-title {
+        font-size: 1.1em;
+        margin-top: 30px;
+    }
+    .aw-service-agency .img-sub-desc {
+        font-size: 1em;
+    }
+    .aw-service-agency .step3 {
+        margin-bottom: 2em;
+    }
+}
+/**** WEB ****/
+@media only screen and (min-width: 769px) {
+    .service-pannel .container {
+        width: 1000px;
+    }
+    .menu li {
+        display: inline-block;
+        margin-left: -4px;
+        padding: 1em 2em;
+        font-size: 2em;
+        font-family: 'Oswald', serif;
+        font-weight: 500;
+        color: #fff;
+    }
+}

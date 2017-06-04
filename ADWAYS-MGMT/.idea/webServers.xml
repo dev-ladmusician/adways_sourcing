@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5e997222-1c1c-4ba1-ad6d-11d614e74ddf" name="ADWAYS-MGMT" url="http://ec2-52-78-1-170.ap-northeast-2.compute.amazonaws.com/ADWAYS-MGMT/main/index">
+        <fileTransfer host="ec2-52-78-1-170.ap-northeast-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/.ssh/AdwaysGuest.pem" rootFolder="/var/www/html/ADWAYS-MGMT" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,138 @@
+.aw-contact-fs-section {
+    padding: 15em 0 14em 0;
+    background: url('/ADWAYS/static/img/contact/bg_contact.png') no-repeat fixed;
+    position: relative;
+    background-size: cover; }
+.aw-contact-fs-section .container {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+.aw-contact-fs-section .career-title {
+    font-family: 'Oswald', serif;
+    font-size: 2.5em;
+    -webkit-animation-delay: 700ms;
+    -moz-animation-delay: 700ms;
+    -o-animation-delay: 700ms;
+    animation-delay: 700ms;
+    line-height: 1;  }
+.aw-contact-fs-section .career-title-desc {
+    font-size: 18px;
+    -webkit-animation-delay: 700ms;
+    -moz-animation-delay: 700ms;
+    -o-animation-delay: 700ms;
+    animation-delay: 700ms;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 100;
+    line-height: 1.7; }
+.aw-contact-fs-section .career-content {
+    font-size: 2em;
+    margin-top: 2em;
+    -webkit-animation-delay: 800ms;
+    -moz-animation-delay: 800ms;
+    -o-animation-delay: 800ms;
+    animation-delay: 800ms;
+    font-weight: 200;  }
+.aw-contact-fs-section .career-content-desc {
+    font-size: 1.3em;
+    margin-top: 1em;
+    -webkit-animation-delay: 800ms;
+    -moz-animation-delay: 800ms;
+    -o-animation-delay: 800ms;
+    animation-delay: 800ms;
+    font-weight: 100; }
+.aw-contact-fs-section .career-email-container .email-sales-container,
+.aw-contact-fs-section .career-email-container .email-pr-container{
+    background: #E54046;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 19px;
+    font-size: 19px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+    -webkit-animation-delay: 1000ms;
+    -moz-animation-delay: 1000ms;
+    -o-animation-delay: 1000ms;
+    animation-delay: 1000ms;}
+.aw-contact-fs-section .career-email-container .email-sales-container img,
+.aw-contact-fs-section .career-email-container .email-pr-container img{
+    width: 62px;
+    margin-bottom: 7px;}
+
+
+/**** MAP ****/
+.aw-map-section {
+    width: 100%;
+    background: #FAF8F7}
+.aw-map-section #aw-map{
+    width: 100%;
+    min-height: 400px;  }
+.aw-map-section .container {
+    padding: 5em 0;  }
+.aw-map-section .aw-map-title {
+    font-family: 'Oswald', serif;
+    font-size: 2em;  }
+.aw-map-section .aw-map-title span {
+    color: #CE3F47  }
+.aw-map-section .aw-map-content {
+    font-size: 1.1em;
+    line-height: 1.7; }
+.aw-map-section .aw-map-content ul {
+}
+.aw-map-section .aw-map-content ul li {
+    display: inline-block;
+    margin-right: 20px;}
+.aw-map-section .aw-map-content ul li span {
+    color: #CE3F47  }
+
+
+
+/**** MOBILE ****/
+@media only screen and (max-width: 480px) {
+    .aw-contact-fs-section {
+        padding: 6em 0;
+    }
+    .aw-contact-fs-section .career-title {
+        font-size: 1.5em;
+    }
+    .aw-contact-fs-section .career-title-desc {
+        font-size: 16px;
+    }
+    .aw-map-section .container {
+        padding-top: 3em;
+        padding-bottom: 3em;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .aw-contact-fs-section .career-email-container .email-sales-container,
+    .aw-contact-fs-section .career-email-container .email-pr-container{
+        background: #E54046;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        width: 80px;
+        font-size: 19px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 8px;
+        border-radius: 10px;
+        margin-right: 10px;
+        -webkit-animation-delay: 1000ms;
+        -moz-animation-delay: 1000ms;
+        -o-animation-delay: 1000ms;
+        height: 78px;
+        animation-delay: 1000ms;
+        padding-top: 9px;
+    }
+    .aw-contact-fs-section .career-email-container .email-sales-container img,
+    .aw-contact-fs-section .career-email-container .email-pr-container img{
+        width: 38px;
+        margin-bottom: 7px;
+    }
+}
+/**** WEB ****/
+@media only screen and (min-width: 769px) {
+}

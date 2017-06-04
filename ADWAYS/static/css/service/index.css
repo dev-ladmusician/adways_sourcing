@@ -1,0 +1,202 @@
+.aw-service-fs-section {
+    padding: 9em 0 25em 0;
+    background: url('/ADWAYS/static/img/service/service_bg.png') no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.aw-service-fs-section .container {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+.aw-service-fs-section .service-title {
+    font-family: 'Oswald', serif;
+    font-size: 2.5em;
+    -webkit-animation-delay: 1000ms;
+    -moz-animation-delay: 1000ms;
+    -o-animation-delay: 1000ms;
+    animation-delay: 1000ms;
+}
+.aw-service-fs-section .service-content {
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1.7;
+    -webkit-animation-delay: 1000ms;
+    -moz-animation-delay: 1000ms;
+    -o-animation-delay: 1000ms;
+    animation-delay: 1000ms;
+}
+
+/**** BUSINESS ****/
+.aw-service-business-section {
+    padding: 7em 0;
+    background: #E54046;
+    color: #fff;
+}
+.aw-service-business-section .container {
+    width: 70%;
+}
+.aw-service-business-section .title {
+    font-size: 2.3em;
+    font-family: 'Oswald', serif;
+}
+.aw-service-business-section .business-item {
+    margin-top: 4em;
+    color: #fff;
+    /*-webkit-animation-delay: 0.4s;*/
+    /*-moz-animation-delay: 0.4s;*/
+    /*-o-animation-delay: 0.4s;*/
+    /*animation-delay: 0.4s;*/
+}
+.aw-service-business-section .business-item-analytic {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    -o-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+.aw-service-business-section .business-item-platform {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+.aw-service-business-section .business-item-agency {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    -o-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+.aw-service-business-section .business-item:hover {
+    text-decoration: none;
+}
+/*.aw-service-business-section .business-item-analytic:hover img {*/
+    /*content:url("/ADWAYS/static/img/service/ic_analytic_black.png");*/
+/*}*/
+/*.aw-service-business-section .business-item-platform:hover img {*/
+    /*content:url("/ADWAYS/static/img/service/ic_platform_black.png");*/
+/*}*/
+/*.aw-service-business-section .business-item-agency:hover img {*/
+    /*content:url("/ADWAYS/static/img/service/ic_agency_black.png");*/
+/*}*/
+.aw-service-business-section .business-item .business-item-container {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding-top: 4em;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.aw-service-business-section .business-item .business-item-container img{
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.aw-service-business-section .business-item .business-item-container div{
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.aw-service-business-section .business-item .business-item-container {
+    /*border: 2px solid #ff5d78;*/
+    /*box-shadow: 0 0 2px 10px #ff5d78;*/
+}
+.aw-service-business-section .business-item .business-item-container:hover {
+    /*background: #fff;*/
+    /*border: 2px solid #957478;*/
+    /*box-shadow: 0 0 2px 10px #957478;*/
+    border: 2px solid #222;
+}
+.aw-service-business-section .business-item .business-item-container:hover img,
+.aw-service-business-section .business-item .business-item-container:hover div {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #222;
+    font-weight: bold;
+}
+.aw-service-business-section .business-item img {
+    margin-bottom: 15px;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.aw-service-business-section .business-item .icon-desc {
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    font-family: 'Oswald', serif;
+}
+
+
+/**** MARKETING ****/
+.aw-service-marketing-section {
+    padding: 10em 0;
+    /*background: url('/ADWAYS/static/img/service/service_marketing_bg.png') no-repeat;*/
+    background: url('/ADWAYS/static/img/service/bg_service_content.png') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;  }
+.aw-service-marketing-section img {
+    width: 80%;
+}
+.aw-service-marketing-section .aw-lang-en img {
+    width: 90%;
+}
+
+/**** MOBILE ****/
+@media only screen and (max-width: 480px) {
+    .aw-service-fs-section {
+        padding: 9em 0;
+        background: url('/ADWAYS/static/img/service/service_bg.png') no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position-x: 67%;
+    }
+    .aw-service-fs-section .service-content {
+        font-size: 16px;
+    }
+    .aw-service-fs-section .service-title {
+        font-size: 1.5em;
+    }
+    .aw-service-business-section,
+    .aw-service-marketing-section {
+        padding: 3em 0;
+    }
+    .aw-service-business-section .container {
+        width: 100%;
+    }
+    .aw-service-business-section .title {
+        font-size: 1.5em;
+    }
+    .aw-service-business-section .business-item .business-item-container {
+        width: 200px;
+        height: 200px;
+        padding-top: 3.5em;
+    }
+    .aw-service-business-section .business-item .platform-img-container {
+        padding-top: 2.7em;
+    }
+    .aw-service-business-section .business-item .icon-desc {
+        font-size: 1.3em;
+    }
+    .aw-service-business-section .business-item img {
+        width: 35%;
+    }
+    .aw-service-business-section .business-item .platform-img-container img {
+        width: 31%;
+    }
+    .aw-service-marketing-section img {
+        width: 100%;
+    }
+}
+/**** WEB ****/
+@media only screen and (min-width: 769px) {
+    .aw-service-fs-section .service-title {
+        line-height: 1.2;
+    }
+}

@@ -1,0 +1,120 @@
+.aw-relation-fs-section {
+    padding: 10em 0 30em 0;
+    background: url('/ADWAYS/static/img/relation/relation_bg.jpeg') no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    background-position-x: 45%;
+}
+.aw-relation-fs-section .container {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+.aw-relation-fs-section .relation-title {
+    font-size: 3em;
+    line-height: 1;
+    font-family: 'Oswald', sans-serif;
+    -webkit-animation-delay: 800ms;
+    -moz-animation-delay: 800ms;
+    -o-animation-delay: 800ms;
+    animation-delay: 800ms;
+}
+.aw-relation-fs-section .relation-content {
+    margin-top: 1em;
+    font-weight: 200;
+    font-size: 20px;
+    -webkit-animation-delay: 900ms;
+    -moz-animation-delay: 900ms;
+    -o-animation-delay: 900ms;
+    animation-delay: 900ms;
+}
+
+.aw-notice-section {
+    padding: 5em 0;  }
+.aw-notice-section .notice-logo {
+    color: #fff;  }
+.aw-notice-section .notice-logo span {
+    background: #E14046;
+    padding: 4px 10px;
+    display: inline-block;
+    font-family: 'Oswald', serif;
+    font-size: 1.6em; }
+.aw-notice-section .notice-title {
+    font-size: 2em;
+    margin-top: 0.6em;
+    margin-bottom: 0.3em;}
+.aw-notice-section .notice-date {
+    font-size: 1.2em;
+    color: #717171; }
+.aw-notice-section .notice-content {
+    margin-top: 3em; }
+.aw-notice-section .notice-controller ul {
+    margin-top: 5em; }
+.aw-notice-section .notice-controller ul li {
+    display: inline-block; }
+.aw-notice-section .notice-controller ul li a {
+    background: #818481;
+    color: #fff;
+    padding: 1em 3em;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.1em; }
+
+/**** MOBILE ****/
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100% !important;
+    }
+    .aw-relation-fs-section {
+        padding: 9em 0 9em 0;
+        background: url('/ADWAYS/static/img/relation/relation_bg.jpeg') no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position-x: 38%;
+    }
+    .aw-relation-fs-section .relation-title {
+        font-size: 2em;
+    }
+    .aw-relation-fs-section .relation-content {
+        font-size: 16px;
+    }
+    .aw-notice-section {
+        padding: 3em 0;
+    }
+    .aw-notice-section .notice-logo span {
+        padding: 4px 10px;
+        font-size: 1.3em;
+    }
+    .aw-notice-section .notice-title {
+        font-size: 1.2em;
+    }
+    .aw-notice-section .notice-date {
+        font-size: 1em;
+    }
+    .aw-notice-section .notice-controller ul li {
+        display: inline-block;
+        width: 32%;
+    }
+    .aw-notice-section .notice-controller ul li a {
+        background: #818481;
+        color: #fff;
+        border-radius: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        font-size: 1.1em;
+        display: inline-block;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .aw-notice-section .notice-content img {
+        width: 100%;
+    }
+}
+/**** WEB ****/
+@media only screen and (min-width: 769px) {
+}

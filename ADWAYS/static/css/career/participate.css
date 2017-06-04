@@ -1,0 +1,214 @@
+.aw-career-fs-section .container {
+    width: 900px;
+}
+
+.aw-career-fs-section {
+    padding: 10em 0 10em 0;
+    background: url('/ADWAYS/static/img/career/career_fs_bg.png') no-repeat fixed;
+    position: relative;
+    background-size: cover;  }
+.aw-career-fs-section .container {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+.aw-career-fs-section .career-title {
+    font-family: 'Oswald', serif;
+    font-size: 2.5em;
+    -webkit-animation-delay: 800ms;
+    -moz-animation-delay: 800ms;
+    -o-animation-delay: 800ms;
+    animation-delay: 800ms;
+}
+.aw-career-fs-section .career-title-desc {
+    font-size: 18px;
+    margin-top: 1em;
+    font-weight: 100;
+    -webkit-animation-delay: 900ms;
+    -moz-animation-delay: 900ms;
+    -o-animation-delay: 900ms;
+    animation-delay: 900ms;
+}
+.aw-career-fs-section .career-content {
+    font-size: 1.3em;
+    margin-top: 2.5em;
+    -webkit-animation-delay: 900ms;
+    -moz-animation-delay: 900ms;
+    -o-animation-delay: 900ms;
+    animation-delay: 900ms;
+}
+.aw-career-fs-section .career-content-desc {
+    font-size: 1.1em;
+    margin-top: 0.7em;
+    font-weight: 100;
+    -webkit-animation-delay: 900ms;
+    -moz-animation-delay: 900ms;
+    -o-animation-delay: 900ms;
+    animation-delay: 900ms;
+}
+
+
+
+
+/**** PARTICIPATE ****/
+.aw-career-participate-section {
+    padding: 5em 0;
+}
+.aw-career-participate-section .container {
+    width: 900px;
+}
+.aw-career-participate-section span.title,
+.aw-career-participate-section span.desc {
+    font-size: 16px;
+}
+.aw-career-participate-section .resume-title {
+    font-size: 2em;
+    font-family: 'Oswald', serif;
+    margin-bottom: 2em;
+}
+.aw-career-participate-section span.title {
+    background: #b4b4b4;
+    height: 40px;
+    width: 15%;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 1.1em;
+    margin-right: 15px;
+    display: inline-block;
+}
+.aw-career-participate-section span.resume-summary-title {
+    float: left;
+}
+.aw-career-participate-section span.resume-summary-summary{
+    width: 80%;
+    display: inline-block;
+}
+.aw-career-participate-section .resume-desc-pannel {
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    clear: both;
+}
+.aw-career-participate-section .resume-summary-pannel, .resume-data-pannel {
+    border: none !important;
+}
+.aw-career-participate-section .resume-name {
+    margin-top: 8em;
+}
+.aw-career-participate-section .resume-content-pannel {
+    margin-bottom: 0.5em;
+}
+.aw-career-participate-section .resume-content-pannel span {
+    height: 40px;
+    width: 10%;
+    text-align: left;
+    line-height: 40px;
+    font-size: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 1.1em;
+}
+.aw-career-participate-section .resume-content-pannel input {
+    height: 40px;
+    padding-left: 10px;
+    min-width: 300px;
+    border: 1px solid #D8D8D8;
+}
+.aw-career-participate-section .resume-content-pannel input[type=file] {
+    padding-top: 10px;
+    display: inline-block;
+    width: 89%;
+}
+.aw-career-participate-section .resume-content-pannel textarea {
+    min-height: 150px;
+    max-height: 150px;
+    padding: 10px;
+    margin-left: 4px;
+    min-width: 89%;
+    max-width: 89%;
+    border: 1px solid #D8D8D8;
+}
+.aw-career-participate-section .resume-submit {
+    margin-top: 3em;
+}
+.aw-career-participate-section .resume-submit a {
+    padding: 10px 50px;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-right: 5px;
+    background: #DE4249;
+    color: #fff;
+}
+
+/**** MOBILE ****/
+@media only screen and (max-width: 480px) {
+    .aw-career-fs-section .container,
+    .aw-career-participate-section .container {
+        width: 100%;
+    }
+    .aw-career-fs-section {
+        padding: 6em 0;
+        background: url('/ADWAYS/static/img/career/career_fs_bg.png') no-repeat;
+        position: relative;
+        background-size: cover;
+        background-position-x: 30%}
+    .aw-career-fs-section .career-title {
+        font-size: 1.5em;
+    }
+    .aw-career-fs-section .career-title-desc {
+        margin-top: 7px;
+        font-size: 1.2em;
+    }
+    .aw-career-fs-section .career-content {
+        margin-top: 20px;
+        font-size: 1.2em;
+    }
+    .aw-career-fs-section .career-content-desc {
+        font-size: 13px;
+    }
+    .aw-career-participate-section {
+        padding: 3em 0;
+    }
+    .aw-career-participate-section .resume-title {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+    .aw-career-participate-section span.title {
+        font-size: 11px;
+    }
+    .aw-career-participate-section .resume-summary-pannel .desc {
+        width: 80%;
+    }
+    .aw-career-participate-section .resume-name {
+        margin-top: 11em;
+    }
+    .aw-career-participate-section .resume-content-pannel span {
+        width: 15%;
+        font-size: 1em;
+        color: #8A8888;
+    }
+    .aw-career-participate-section .resume-content-pannel input,
+    .aw-career-participate-section .resume-content-pannel input[type=file]{
+        width: 100%;
+    }
+    .aw-career-participate-section .resume-content-pannel textarea {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .aw-career-participate-section .resume-submit a {
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+/**** WEB ****/
+@media only screen and (min-width: 769px) {
+}
